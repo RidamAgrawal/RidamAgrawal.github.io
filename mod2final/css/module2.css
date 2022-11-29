@@ -1,0 +1,24 @@
+* {box-sizing: border-box;}
+            body {margin:0;}
+            h1 {text-align: center;margin:0;margin-bottom: 10px;}
+            article {position: relative;}
+            section {
+                float:left;width:33.33%;
+            height:196px;
+            }div {background-color: gray;
+                height:180px;border:2px solid black;margin: 0px 10px 0px 10px;
+            }h3 {float:right;margin:-2px;border: 2px solid black;margin-bottom: 3px;font-family: 'Courier New', Courier, monospace;font-weight: bolder;}
+            p {clear:right;font-size:15px;font-family: 'Courier New', Courier, monospace;font-weight: bolder;}
+            @media (min-width:992px) {
+                .col-lg-4 {width:33.3%;}
+            }
+            @media (min-width:768px) and (max-width:991px) {
+                .col-md-6 {width:50%;}
+                .col-md-12 {width:100%;}
+            }
+            @media (max-width:767px) {
+                .col-sm-12 {width:100%;}
+            }
+            .color1 {background-color: chocolate;}
+            .color2 {background-color:blanchedalmond;}
+            .color3 {background-color: firebrick;}
